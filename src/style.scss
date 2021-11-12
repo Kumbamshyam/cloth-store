@@ -365,3 +365,43 @@ body{
 
 
 }
+
+
+// <------------------- newtrendsection -------------------------> 
+.newTrend-section{
+    width: 1130px;
+    height: 400px;
+    background: #000000;
+    margin: 10px auto;
+    
+    .newTrend-container{
+        @include displayFlexCenter;
+        flex-wrap: nowrap;
+        
+        .newTrend-card{
+            background: #ffffff;
+            // display: inline-block;
+            @include displayFlexCenter;
+            flex-direction: column;
+            width: 180px;
+            margin: 0px 15px;
+            
+
+
+
+            img{
+                width: 150px;    
+            }
+    
+            ul{
+                li{
+                     a{
+                         text-decoration: none;
+                         color: #000000;
+                     }
+                }
+            }
+        }
+    }
+
+}
