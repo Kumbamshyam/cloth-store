@@ -13,9 +13,6 @@ export default function Offer1stsection() {
           </div>
           <div className="offer-and-navigation-section">
             <div className="row offer-section-cards">
-            <div className="navigation-left-button">
-              <img src="images/navigation left button.svg" alt="" />
-            </div>
               {/* card 1 */}
               <div className="card col">
                 <img src="images/men image 1.png" className="card-img-top" alt="..." />
@@ -76,9 +73,6 @@ export default function Offer1stsection() {
                 <h6>M.R.P: ₹ <span>569.00</span> </h6>
                 <h5>FREE DELIVERY</h5>
               </div>
-              <div className="navigation-left-button">
-              <img src="images/nav.svg" alt="" />
-            </div>
             </div>
           </div>
 

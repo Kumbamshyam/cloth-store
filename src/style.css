@@ -150,6 +150,10 @@ body {
   cursor: pointer;
 }
 
+.navbar .login-singup-tab svg {
+  margin-left: 2px;
+}
+
 .banner-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -396,49 +400,103 @@ body {
 .newTrend-section {
   width: 1130px;
   height: 400px;
-  background: #000000;
   margin: 10px auto;
 }
 
 .newTrend-section .newTrend-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
-.newTrend-section .newTrend-container .newTrend-card {
   background: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 180px;
-  margin: 0px 15px;
 }
 
-.newTrend-section .newTrend-container .newTrend-card img {
-  width: 150px;
+.newTrend-section .newTrend-container .newTrend-header h2 {
+  background: #FD0404;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 20px;
+  margin: 25px 839px 25px 50px;
 }
 
-.newTrend-section .newTrend-container .newTrend-card ul li a {
+.newTrend-section .newTrend-container .newTrend-header button {
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background: #E7F900;
+  margin-right: 30px;
+}
+
+.newTrend-section .newTrend-container .newTrend-header button a {
   text-decoration: none;
   color: #000000;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 50px 0;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards {
+  display: inline-block;
+  background: #ffffff;
+  width: 180px;
+  padding: 15px 15px 0 15px;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards:nth-of-type(7) {
+  opacity: 0.7;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards img {
+  height: 150px;
+  width: 148px;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards ul {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards ul li {
+  text-align: center;
+  line-height: 100%;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards h4 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards h4 span {
+  font-size: 13px;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards h6 {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards h6 span {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.newTrend-section .newTrend-container .newTrend-card-body .newTrend-cards h5 {
+  font-size: 13px;
+  color: #ff0b0b;
+  text-align: center;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=style.css.map */

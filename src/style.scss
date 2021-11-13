@@ -139,6 +139,10 @@ body{
         border-radius: 20px;
         padding: 5px 10px 5px 10px;
         cursor: pointer;
+
+        svg{
+            margin-left: 2px;
+        }
     }
 }
 
@@ -371,37 +375,109 @@ body{
 .newTrend-section{
     width: 1130px;
     height: 400px;
-    background: #000000;
     margin: 10px auto;
     
     .newTrend-container{
-        @include displayFlexCenter;
-        flex-wrap: nowrap;
+        background: #ffffff;
         
-        .newTrend-card{
-            background: #ffffff;
-            // display: inline-block;
-            @include displayFlexCenter;
-            flex-direction: column;
-            width: 180px;
-            margin: 0px 15px;
+        .newTrend-header{
+            // @include displayFlexCenter;
             
-
-
-
-            img{
-                width: 150px;    
+            
+            h2{
+                background: $headdingredcolor;
+                padding: 5px 10px;
+                border-radius: 5px;
+                color: #FFFFFF;
+                font-weight: bold;
+                display: inline-block;
+                font-size: 20px;
+                margin: 25px 839px 25px 50px;
             }
-    
-            ul{
-                li{
-                     a{
-                         text-decoration: none;
-                         color: #000000;
-                     }
+
+            button{
+                display: inline-block;
+                outline: none;
+                border: none;
+                padding: 5px 10px;
+                background: $lightgreencolor;
+                margin-right: 30px;
+                a{
+                    text-decoration: none;
+                    color: #000000;
                 }
             }
         }
+
+        .newTrend-card-body{
+            overflow: hidden;
+            display: flex;
+            padding: 0 0 50px 0;
+            
+            
+            .newTrend-cards{
+                display: inline-block;
+                background: #ffffff;
+                width: 180px;
+                padding: 15px 15px 0 15px;
+                
+
+                &:nth-of-type(7){
+                    opacity: 0.7;
+                }
+    
+    
+    
+                img{
+                    height: 150px;
+                    width: 148px;
+                }
+        
+                ul{
+                    padding: 0;
+                    margin-top: 10px;
+                    li{
+                        text-align: center;
+                        line-height: 100%;
+                         a{
+                             text-decoration: none;
+                             color: #000000;
+                            font-size: 13px;
+                         }
+                    }
+                }
+    
+                h4{
+                    font-size: 15px;
+                    font-weight: bold;
+                    text-align: center;
+    
+                    span{
+                        font-size: 13px;
+                    }
+                }
+    
+                h6{
+                    text-align: center;
+                    font-size: 13px;
+                    opacity: 0.7;
+    
+                    span{
+                        opacity: 1;
+                        font-weight: bold;
+                    }
+                }
+    
+                h5{
+                    font-size: 13px;
+                    color: #ff0b0b;
+                    text-align: center;
+                    opacity: 0.6;
+                }
+            }
+
+        }
+
     }
 
 }
