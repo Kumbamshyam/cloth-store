@@ -159,7 +159,6 @@ body{
 .banner-section{
     @include displayFlexCenter;
     flex-direction: column;
-    // width: 100vh;
 
 
 
@@ -179,8 +178,8 @@ body{
             height: 100px;
             width: 50px;
             margin: 0 10px;
-            // margin left add in html file 
-            // margin right add in html file 
+    // 👻👻👻 margin left add in html file 👻👻👻 
+    // 👻👻👻 margin right add in html file 👻👻👻 
             border-radius: 5%;
             position: absolute;
             top: 25%;
@@ -209,7 +208,6 @@ body{
             border-radius: 15px 15px 5px 5px;
             position: relative;
             border-bottom: 1px solid black;
-            // inset: -30px 0 0 0;       
             ul{
                 @include displayFlexCenter;
                 padding: 0;
@@ -240,8 +238,6 @@ body{
 }
 
 .offer-and-navigation-section{
-    // display: flex;
-    // align-items: center;
     display: inline;
 }
 
@@ -348,26 +344,6 @@ body{
             letter-spacing: 0.5px;
         }
     }
-
-    // .offer-and-navigation-section{
-    //     width: 900px;
-    // }
-
-    .navigation-left-button{
-        display: contents;
-        img{
-            background: #0000008c;
-        border-radius: 0 5px 5px 0;
-    }
-}
-    
-    .navigation-right-button{
-        display: contents;
-        height: 100px;
-
-    }
-
-
 }
 
 
@@ -381,7 +357,6 @@ body{
         background: #ffffff;
         
         .newTrend-header{
-            // @include displayFlexCenter;
             
             
             h2{

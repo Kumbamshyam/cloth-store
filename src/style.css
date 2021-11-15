@@ -383,20 +383,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-.offer-section .navigation-left-button {
-  display: contents;
-}
-
-.offer-section .navigation-left-button img {
-  background: #0000008c;
-  border-radius: 0 5px 5px 0;
-}
-
-.offer-section .navigation-right-button {
-  display: contents;
-  height: 100px;
-}
-
 .newTrend-section {
   width: 1130px;
   height: 400px;
